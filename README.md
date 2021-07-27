@@ -1,4 +1,4 @@
-# kremer_website
+# Sfrogs Template
 
 ## Build Setup
 
