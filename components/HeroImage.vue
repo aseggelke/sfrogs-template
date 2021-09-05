@@ -2,11 +2,21 @@
   <div class="h-screen relative">
     <img src="../assets/images/heroImage.jpg" class="image" alt="Image">
     <div>
-      <h1 class="absolute text-center top-24 text-white left-1/2 headline">Betreuungsbüro Vianden-Klees</h1>
+      <h1 class="absolute text-center top-32 text-white left-1/2 headline">Betreuungsbüro Vianden-Klees</h1>
     </div>
-    <div @click="openContact" :class="{'w-52': isOpended}" class="duration-500 cursor-pointer absolute bg-gray-400 bg-opacity-80 right-0 bottom-36 w-14 h-28">
-      <img class="pt-5 pl-4" src="../assets/images/phone-call.png" alt="Image">
-      <img class="pt-5 pl-4" src="../assets/images/mail.png" alt="Image">
+    <div @click="openContact" :class="{'w-60': isOpended}" class="text-white text-base duration-500 cursor-pointer absolute bg-gray-400 bg-opacity-80 right-0 bottom-36 w-14">
+      <div class="flex">
+          <img class="pt-5 pl-4" src="../assets/images/phone-call.png" alt="Image">
+        <span v-if="showDelayedElement" class="pt-4 underline text-center	w-full">+49 213 193242</span>
+      </div>
+      <div class="flex pb-4">
+        <img class="pt-5 pl-4" src="../assets/images/mail.png" alt="Image">
+        <span v-if="showDelayedElement" class="text-center">
+          <span class="">vianden-klees@</span>
+          <span class="">betreuungsbuero.de</span>
+        </span>
+      </div>
+
     </div>
     <div  class="cursor-pointer" @click="scrollToNextElement">
       <span class="
@@ -29,6 +39,7 @@ export default {
   data() {
     return {
       isOpended: false,
+      showDelayedElement: false,
     }
   },
   methods: {
@@ -37,6 +48,12 @@ export default {
     },
     openContact() {
       this.isOpended = !this.isOpended
+      if(this.isOpended) {
+        setTimeout(()=> {
+          this.showDelayedElement = true
+        }, 200)
+      }
+      this.showDelayedElement =false
     }
   }
 }

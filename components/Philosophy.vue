@@ -1,5 +1,5 @@
 <template>
-<div>
+<div id="philosophy">
   <div class="image pb-5">
     <div class="text-center">
       <h2 class="pt-4">
@@ -11,10 +11,10 @@
       <div class="absolute top-3 left-3 w-12 h-12">
         <img src="../assets/images/quote.png" alt="Image">
       </div>
-      <p class="text-white">
+      <p class="text-white italic">
         Die Würde aller Menschen steht im Mittelpunkt meiner Arbeit.
         Hierfür steht für mich ein harmonisches Miteinander zwischen meinen Klienten und allen Helfern im Vordergrund, die im besten Fall zur Verselbständigung führt. Oberste Priorität hat für mich das selbstbestimmte eigenständige Leben der Betreuten in einem bekannten Umfeld.
-        Hierzu braucht es individueller Lösungsansätze für die unterschiedlichsten Probleme und Fragestellungen in deren Zentrum für mich jedoch immer der Mensch steht.
+        Hierzu braucht es individueller Lösungsansätze für die unterschiedlichsten Probleme und Fragestellungen in deren Zentrum für mich jedoch immer der Mensch steht.<br><br>
 
         Gemeinsam nehmen wir jede Hürde.
       </p>
