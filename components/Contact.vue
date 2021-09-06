@@ -1,25 +1,48 @@
 <template>
-<div class="pt-10 px-7" id="contact">
-  <div class="mb-5 text-center">
-    <h2>
-      Kontaktieren Sie mich!
-    </h2>
-    <hr class="border-b border-gray-400 w-20 m-auto mt-1"/>
-  </div>
-  <p>Alternativ zu den oben angegebenen Kontaktdaten
-    können Sie mir auch gerne direkt über das folgende
-    Kontaktformular schreiben.
+  <div class="pt-10 px-7" id="contact">
+    <div class="mb-5 text-center">
+      <h2>
+        Kontaktieren Sie mich!
+      </h2>
+      <hr class="border-b border-gray-400 w-20 m-auto mt-1"/>
+    </div>
+    <p>Alternativ zu den oben angegebenen Kontaktdaten
+      können Sie mir auch gerne direkt über das folgende
+      Kontaktformular schreiben.
     </p>
-  <div class="text-white bg-gray-500 py-2 text-center cursor-pointer m-auto w-40">
-    <button class="focus:outline-none">
-      Abschicken
-    </button>
+    <div class="flex flex-col py-10">
+      <label>Vor- und Nachname</label>
+      <input class="border-2 p-2" v-model="name" placeholder="Bitte den Vor und Nachnamen eingeben">
+      <label class="pt-6">Betreff</label>
+      <input class="border-2 p-2" v-model="subject" placeholder="Bitte den Betreff eingeben">
+      <label class="pt-6">Nachricht</label>
+      <textarea class="border-2 p-2" v-model="message"
+                placeholder="Bitte ihre Frage oder Nachricht eingeben"></textarea>
+    </div>
+    <div :class="{'pointer-events-none opacity-30':isDisabled}" class="text-white bg-gray-500 py-2 text-center cursor-pointer m-auto w-40 mb-10">
+      <a
+         :href="'mailto:vianden-klees@betreuungsbuero.de?subject=Von ' + name+' Betreff:' +subject +'&body='+message"
+         class="focus:outline-none">
+        E-Mail senden
+      </a>
+    </div>
   </div>
-</div>
 </template>
 
 <script>
 export default {
-  name: "Contact"
+  name: "Contact",
+  data() {
+    return {
+      name: '',
+      subject: '',
+      message: '',
+    }
+  },
+  computed: {
+    isDisabled() {
+      return this.name === '' || this.subject === '' || this.message === ''
+    }
+  },
 }
 </script>
