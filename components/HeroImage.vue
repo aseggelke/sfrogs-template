@@ -1,8 +1,17 @@
 <template>
-  <div class="h-screen relative">
-    <img src="../assets/images/heroImage.jpg" class="image" alt="Image">
+  <div class="h-screen relative image">
     <div>
-      <h1 class="absolute text-center top-32 text-white left-1/2 headline">Betreuungsbüro Vianden-Klees</h1>
+      <h1 class="text-center pt-20 lg:pt-16 text-white">Betreuungsbüro Vianden-Klees</h1>
+    </div>
+    <div class="hidden lg:block text-lg m-auto text-white">
+      <div>
+        <ul class="flex justify-center">
+          <li class="border-r-2 px-4 cursor-pointer" @click="scrollToSection('berufsberater')">Der Beruf</li>
+          <li class="border-r-2 px-4 cursor-pointer" @click="scrollToSection('philosophy')">Meine Philosophie</li>
+          <li class="border-r-2 px-4 cursor-pointer" @click="scrollToSection('career')">Über mich</li>
+          <li class="px-4 cursor-pointer" @click="scrollToSection('contact')">Kontakt</li>
+        </ul>
+      </div>
     </div>
     <div @click="openContact" :class="{'w-60': isOpended}"
          class="text-white text-base duration-500 cursor-pointer absolute bg-gray-400 bg-opacity-80 right-0 bottom-36 w-14">
@@ -55,20 +64,19 @@ export default {
         }, 200)
       }
       this.showDelayedElement = false
-    }
+    },
+      scrollToSection(id) {
+        document.getElementById(id).scrollIntoView({
+          behavior: 'smooth',
+          block: 'center',
+          inline: 'center'
+        });
+      }
   }
 }
 </script>
 
 <style scoped>
-.image {
-  object-fit: cover;
-  @apply h-screen w-screen;
-}
-
-.headline {
-  transform: translate(-50%, -50%);
-}
 
 .arrow:after {
   content: '';
@@ -77,5 +85,16 @@ export default {
   height: 70%;
   transform: translateY(-12%) rotate(-45deg);
   filter: drop-shadow(0 0 2px #000);
+}
+.image {
+  background: url('../assets/images/heroImage.jpg');
+  background-size: cover;
+  @apply h-screen w-screen
+}
+@media only screen and (min-width: 1024px) {
+  .image {
+    background: url('../assets/images/hero2.png');
+    background-size: cover;
+  }
 }
 </style>

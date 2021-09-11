@@ -1,26 +1,32 @@
 <template>
-<div id="philosophy">
-  <div class="image pb-5">
-    <div class="text-center">
-      <h2 class="pt-4">
-        Meine Philosophie
-      </h2>
-      <hr class="border-b border-gray-500 w-20 m-auto mt-1"/>
-    </div>
-    <div class="relative bg-black mt-44 bg-opacity-50 mx-3 pl-12 pr-5 pt-9 pb-5 text-white">
-      <div class="absolute top-3 left-3 w-12 h-12">
-        <img src="../assets/images/quote.png" alt="Image">
-      </div>
-      <p class="text-white italic">
-        Die Würde aller Menschen steht im Mittelpunkt meiner Arbeit.
-        Hierfür steht für mich ein harmonisches Miteinander zwischen meinen Klienten und allen Helfern im Vordergrund, die im besten Fall zur Verselbständigung führt. Oberste Priorität hat für mich das selbstbestimmte eigenständige Leben der Betreuten in einem bekannten Umfeld.
-        Hierzu braucht es individueller Lösungsansätze für die unterschiedlichsten Probleme und Fragestellungen in deren Zentrum für mich jedoch immer der Mensch steht.<br><br>
+  <div id="philosophy">
+    <div class="image pb-5 lg:flex">
+      <img src="../assets/images/pilosophy.jpg" class="h-full w-1/3 hidden lg:block" alt="Bild">
+      <div class="lg:bg-black lg:bg-opacity-50 lg:text-white lg:px-28">
+        <div class="text-center lg:pb-20">
+          <h2 class="pt-4 lg:pt-8">
+            Meine Philosophie
+          </h2>
+          <hr class="border-b border-gray-500 w-20 m-auto mt-1 lg:border-white"/>
+        </div>
+        <div class="relative bg-black mt-44 lg:m-0 bg-opacity-50 lg:bg-transparent mx-3 pl-12 pr-5 pt-9 pb-5 text-white">
+          <div class="absolute top-3 left-3 w-12 h-12">
+            <img src="../assets/images/quote.png" alt="Image">
+          </div>
+          <p class="text-white italic">
+            Die Würde aller Menschen steht im Mittelpunkt meiner Arbeit.
+            Hierfür steht für mich ein harmonisches Miteinander zwischen meinen Klienten und allen Helfern im
+            Vordergrund, die im besten Fall zur Verselbständigung führt. Oberste Priorität hat für mich das
+            selbstbestimmte eigenständige Leben der Betreuten in einem bekannten Umfeld.
+            Hierzu braucht es individueller Lösungsansätze für die unterschiedlichsten Probleme und Fragestellungen in
+            deren Zentrum für mich jedoch immer der Mensch steht.<br><br>
 
-        Gemeinsam nehmen wir jede Hürde.
-      </p>
+            Gemeinsam nehmen wir jede Hürde.
+          </p>
+        </div>
+      </div>
     </div>
   </div>
-</div>
 </template>
 
 <script>
@@ -30,8 +36,9 @@ export default {
 </script>
 
 <style scoped>
-.image{
+.image {
   background: url('../assets/images/pilosophy.jpg');
   background-size: cover;
+  @apply lg:bg-none;
 }
 </style>
