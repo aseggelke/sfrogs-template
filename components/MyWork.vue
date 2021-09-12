@@ -1,10 +1,10 @@
 <template>
-  <div class="py-16 px-10 lg:px-40">
+  <div class="py-16 px-10 lg:px-32 2xl:px-60">
     <div class="mb-5 text-center">
       <h2>
         Meine Arbeitsbereiche
       </h2>
-      <hr class="border-b border-gray-400 w-20 m-auto mt-1"/>
+      <hr class="border-b border-light-gray w-16 lg:w-32 m-auto mt-1"/>
     </div>
     <p class="pb-4 lg:pb-6">Selbstverständlich betreue ich …</p>
     <ul class="list-outside list-disc lg:flex justify-between">
@@ -39,7 +39,3 @@ export default {
   name: "MyWork"
 }
 </script>
-
-<style scoped>
-
-</style>

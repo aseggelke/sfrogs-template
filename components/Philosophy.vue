@@ -2,14 +2,14 @@
   <div id="philosophy">
     <div class="image pb-5 lg:flex">
       <img src="../assets/images/pilosophy.jpg" class="h-full w-1/3 hidden lg:block" alt="Bild">
-      <div class="lg:bg-black lg:bg-opacity-50 lg:text-white lg:px-28">
-        <div class="text-center lg:pb-20">
+      <div class="lg:bg-dark-gray lg:text-white 2xl:px-28 lg:px-10">
+        <div class="text-center 2xl:pb-20 xl:pb-12">
           <h2 class="pt-4 lg:pt-8">
             Meine Philosophie
           </h2>
-          <hr class="border-b border-gray-500 w-20 m-auto mt-1 lg:border-white"/>
+          <hr class="border-b border-dark-gray w-16 lg:w-32 m-auto mt-1 lg:border-white"/>
         </div>
-        <div class="relative bg-black mt-44 lg:m-0 bg-opacity-50 lg:bg-transparent mx-3 pl-12 pr-5 pt-9 pb-5 text-white">
+        <div class="relative bg-dark-gray mt-44 lg:m-0 bg-opacity-80 lg:bg-transparent mx-3 pl-12 pr-5 pt-9 pb-5 text-white">
           <div class="absolute top-3 left-3 w-12 h-12">
             <img src="../assets/images/quote.png" alt="Image">
           </div>

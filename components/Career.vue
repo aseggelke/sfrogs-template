@@ -4,11 +4,11 @@
       <h2 class="pt-16 text-center">
         Ausbildung
       </h2>
-      <hr class="border-b border-gray-500 w-20 m-auto mt-1"/>
+      <hr class="border-b border-light-gray w-16 lg:w-32 m-auto mt-1"/>
     </div>
     <div class="px-20 pt-16 grid md:grid-cols-4 gap-8 text-white text-center">
-      <div class="bg-gray-400 w-full flex flex-col pb-4 pt-2">
-        <span>
+      <div class="bg-dark-gray w-full flex flex-col pb-4 pt-2">
+        <span class="italic">
           - 1983 -
         </span>
         <img src="../assets/images/charity.png" class="w-20 h-20 my-4 self-center" alt="Bild">
@@ -17,8 +17,8 @@
           examinierten Altenpflegerin
         </span>
       </div>
-      <div class="bg-gray-400 w-full flex flex-col pb-4 pt-2">
-        <span>
+      <div class="bg-dark-gray w-full flex flex-col pb-4 pt-2">
+        <span class="italic">
           - 1988 -
         </span>
         <img src="../assets/images/businesswoman.png" class="w-20 h-20 my-4 self-center" alt="Bild">
@@ -26,8 +26,8 @@
         Ausbildung zur Bürokauffrau
         </span>
       </div>
-      <div class="bg-gray-400 w-full flex flex-col pb-4 pt-2">
-        <span>
+      <div class="bg-dark-gray w-full flex flex-col pb-4 pt-2">
+        <span class="italic">
           - 2000 -
         </span>
         <img src="../assets/images/medicine.png" class="w-20 h-20 my-4 self-center" alt="Bild">
@@ -35,8 +35,8 @@
         Selbstständige Kauffrau in der Medizintechnik
         </span>
       </div>
-      <div class="bg-gray-400 w-full flex flex-col pb-4 pt-2">
-        <span>
+      <div class="bg-dark-gray w-full flex flex-col pb-4 pt-2">
+        <span class="italic">
           - 2021 -
         </span>
         <img src="../assets/images/handshake.png" class="w-20 h-20 my-4 self-center" alt="Bild">
@@ -55,12 +55,12 @@
       </div>
     </div>
     <div class="image">
-      <div class="text-white my-16 py-8 lg:px-40 px-10 bg-gray-500 bg-opacity-80">
+      <div class="text-white my-16 py-8 lg:px-28 2xl:px-60 px-10 bg-dark-gray bg-opacity-80">
         <div class="mb-5 text-center">
           <h2>
             Besuchte Seminare
           </h2>
-          <hr class="border-b border-gray-400 w-20 m-auto mt-1"/>
+          <hr class="border-b border-light-gray w-16 lg:w-32 m-auto mt-1"/>
         </div>
         <ul class="pt-6 list-outside list-disc">
           <div class="lg:flex justify-between">
