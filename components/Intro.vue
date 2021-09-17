@@ -1,13 +1,13 @@
 <template>
   <div>
-    <div class="py-12 padding">
+    <div class="py-12 px-7 md:px-16 padding">
       <div class="mb-9 text-center">
         <h2>
           Willkommen auf meiner Website
         </h2>
         <hr class="border-b border-light-gray w-16 lg:w-32 m-auto mt-1"/>
       </div>
-      <p>
+      <p class="lg:text-center">
         Mein Name ist Simone Vianden-Klees und ich bin hauptberufliche Betreuerin. <br><br>
         Viele Menschen erschrecken, wenn sie „Vormund“ oder „Betreuer“ hören.
         Dabei sind Angst und Sorge völlig unbegründet.<br>
@@ -19,7 +19,7 @@
       </p>
     </div>
     <div id="berufsberater" class="text-white image">
-      <div class="bg-dark-gray bg-opacity-80 pb-16 pt-8 px-7 lg:px-52">
+      <div class="bg-dark-gray bg-opacity-80 md:px-16 pb-16 pt-8 px-7 padding">
         <div class="relative">
           <div class="mb-9 text-center">
             <h2>
@@ -48,9 +48,5 @@ export default {
 .image {
   background: url('../assets/images/hand.jpeg');
   background-size: cover;
-}
-.padding{
-  padding-left: 13vw;
-  padding-right: 13vw;
 }
 </style>

@@ -1,5 +1,5 @@
 <template>
-  <div class="py-16 px-10 lg:px-32 2xl:px-60">
+  <div class="py-16 px-10 md:px-20 padding">
     <div class="mb-5 text-center">
       <h2>
         Meine Arbeitsbereiche
@@ -7,7 +7,7 @@
       <hr class="border-b border-light-gray w-16 lg:w-32 m-auto mt-1"/>
     </div>
     <p class="pb-4 lg:pb-6">Selbstverständlich betreue ich …</p>
-    <ul class="list-outside list-disc lg:flex justify-between">
+    <ul class="list-outside list-disc gap-6 lg:flex justify-between">
       <div>
         <li class="pb-4 lg:pb-6">
           junge wie alte Menschen

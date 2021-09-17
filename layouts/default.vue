@@ -28,5 +28,11 @@ html, body {
 li::marker{
   color: #C9C9C9;
 }
+@media only screen and (min-width: 1024px) {
+  .padding {
+    padding-left: 18vw;
+    padding-right: 18vw;
+  }
+}
 
 </style>

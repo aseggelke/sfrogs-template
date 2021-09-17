@@ -1,5 +1,5 @@
 <template>
-  <div class="pt-10 lg:px-60 px-7" id="contact">
+  <div class="pt-10 padding md:px-16 px-7" id="contact">
     <div class="mb-5 text-center">
       <h2>
         Kontaktieren Sie mich!

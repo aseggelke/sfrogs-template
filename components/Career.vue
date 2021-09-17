@@ -6,7 +6,7 @@
       </h2>
       <hr class="border-b border-light-gray w-16 lg:w-32 m-auto mt-1"/>
     </div>
-    <div class="px-20 pt-16 grid md:grid-cols-4 gap-8 text-white text-center">
+    <div class="px-20 padding pt-16 grid md:grid-cols-4 gap-8 text-white text-center">
       <div class="bg-dark-gray w-full flex flex-col pb-4 pt-2">
         <span class="italic">
           - 1983 -
@@ -55,7 +55,7 @@
       </div>
     </div>
     <div class="image">
-      <div class="text-white my-16 py-8 lg:px-28 2xl:px-60 px-10 bg-dark-gray bg-opacity-80">
+      <div class="text-white my-16 py-8 md:px-20 px-10 bg-dark-gray bg-opacity-80">
         <div class="mb-5 text-center">
           <h2>
             Besuchte Seminare
