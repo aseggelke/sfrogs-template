@@ -55,7 +55,7 @@
       </div>
     </div>
     <div class="image">
-      <div class="text-white my-16 py-8 md:px-20 px-10 bg-dark-gray bg-opacity-80">
+      <div class="text-white my-16 py-8 md:px-20 padding px-10 bg-dark-gray bg-opacity-80">
         <div class="mb-5 text-center">
           <h2>
             Besuchte Seminare
