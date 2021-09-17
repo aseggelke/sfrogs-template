@@ -63,7 +63,7 @@
           <hr class="border-b border-light-gray w-16 lg:w-32 m-auto mt-1"/>
         </div>
         <ul class="pt-6 list-outside list-disc">
-          <div class="lg:flex justify-between">
+          <div class="lg:flex gap-8 justify-between">
             <div>
               <li class="pb-4">
                 Weiterbildung „gerichtliche Betreuung“
@@ -112,7 +112,7 @@
           </div>
         </ul>
 
-        <p class="pt-4 -mx-3 lg:px-60">
+        <p class="pt-4 -mx-3 lg:px-20 text-center">
           Als examinierte Altenpflegerin verbessere ich meine Arbeit durch Fort- und Weiterbildung und regelmäßigen
           fachlichen Austausch mit Kollegen.
         </p>

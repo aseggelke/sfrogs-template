@@ -6,9 +6,9 @@
     <div class="hidden lg:block text-lg m-auto text-white">
       <div>
         <ul class="flex justify-center pt-2 text-2xl">
-          <li class="border-r-2 px-4 cursor-pointer" @click="scrollToSection('berufsberater')">Der Beruf</li>
-          <li class="border-r-2 px-4 cursor-pointer" @click="scrollToSection('philosophy')">Meine Philosophie</li>
-          <li class="border-r-2 px-4 cursor-pointer" @click="scrollToSection('career')">Über mich</li>
+          <li class="border-r-2 px-4 border-white cursor-pointer" @click="scrollToSection('berufsberater')">Der Beruf</li>
+          <li class="border-r-2 px-4 border-white cursor-pointer" @click="scrollToSection('philosophy')">Meine Philosophie</li>
+          <li class="border-r-2 px-4 border-whitecursor-pointer" @click="scrollToSection('career')">Über mich</li>
           <li class="px-4 cursor-pointer" @click="scrollToSection('contact')">Kontakt</li>
         </ul>
       </div>

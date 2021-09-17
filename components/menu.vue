@@ -8,13 +8,13 @@
         <div style="height:2px" class="w-10 my-2 transition-all duration-300"
              :class="menuOpen? 'bg-black changedLast': 'bg-white'"/>
       </div>
-      <div class="absolute z-20 bg-white w-full duration-300 ease-in-out font-bold text-center pt-16 text-2xl"
-           :class="menuOpen? 'top-0 shadow-xl':'-top-72'">
+      <div class="z-20 bg-white w-full duration-500 ease-in-out text-center"
+           :class="menuOpen? 'top-0 shadow-xl pt-14 h-64':'h-0 pt-0'">
         <ul>
-          <li class="cursor-pointer border-2 py-2" @click="scrollToSection('berufsberater')">Der Beruf</li>
-          <li class="cursor-pointer border-b-2 py-2" @click="scrollToSection('philosophy')">Meine Philosophie</li>
-          <li class="cursor-pointer border-b-2 py-2" @click="scrollToSection('career')">Über mich</li>
-          <li class="cursor-pointer border-b-2 py-2" @click="scrollToSection('contact')">Kontakt</li>
+          <li class="cursor-pointer border-2 py-2" @click="scrollToSection('berufsberater')"><h2>Der Beruf</h2></li>
+          <li class="cursor-pointer border-b-2 py-2" @click="scrollToSection('philosophy')"><h2>Meine Philosophie</h2></li>
+          <li class="cursor-pointer border-b-2 py-2" @click="scrollToSection('career')"><h2>Über mich</h2></li>
+          <li class="cursor-pointer border-b-2 py-2" @click="scrollToSection('contact')"><h2>Kontakt</h2></li>
         </ul>
       </div>
     </div>
