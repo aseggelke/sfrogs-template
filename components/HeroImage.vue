@@ -15,22 +15,22 @@
     </div>
     <div class="absolute bottom-10 hidden lg:block text-white">
       <div class="flex pb-4">
-        <img class="px-6" src="../assets/images/phone-call.png" alt="Image">
+        <img class="mx-6 h-6 w-6" src="../assets/images/phone-call.png" alt="Image">
         <a href="tel:+49 213 193242">+49 213 193242</a>
       </div>
       <div class="flex">
-        <img class="px-6" src="../assets/images/mail.png" alt="Image">
+        <img class="mx-6 h-6 w-6" src="../assets/images/mail.png" alt="Image">
         <span><a href="mailto:vianden-klees@betreuungsbuero.de">vianden-klees@betreuungsbuero.de</a></span>
       </div>
     </div>
     <div @click="openContact" :class="{'w-60': isOpended}"
          class="block lg:hidden text-white text-base duration-500 cursor-pointer absolute bg-dark-gray bg-opacity-80 right-0 bottom-36 w-14">
       <div class="flex">
-        <img class="pt-5 pl-3" src="../assets/images/phone-call.png" alt="Image">
+        <img class="pt-5 pl-3 h-12" src="../assets/images/phone-call.png" alt="Image">
         <span v-if="showDelayedElement" class="pt-4 hover:underline text-center	w-full"><a href="tel:+49 213 193242">+49 213 193242</a></span>
       </div>
       <div class="flex pb-4">
-        <img class="pt-5 pl-3" src="../assets/images/mail.png" alt="Image">
+        <img class="pt-5 pl-3 h-12" src="../assets/images/mail.png" alt="Image">
         <a v-if="showDelayedElement" class="hover:underline text-center" href="mailto:vianden-klees@betreuungsbuero.de">
           <span class="">vianden-klees@</span>
           <span class="">betreuungsbuero.de</span>

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="py-12 px-7 lg:px-52">
+    <div class="py-12 padding">
       <div class="mb-9 text-center">
         <h2>
           Willkommen auf meiner Website
@@ -48,5 +48,9 @@ export default {
 .image {
   background: url('../assets/images/hand.jpeg');
   background-size: cover;
+}
+.padding{
+  padding-left: 13vw;
+  padding-right: 13vw;
 }
 </style>
