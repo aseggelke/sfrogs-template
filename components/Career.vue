@@ -12,7 +12,7 @@
           - 1983 -
         </span>
         <img src="../assets/images/charity.png" class="w-20 h-20 my-4 self-center" alt="Bild">
-        <span>
+        <span class="px-3">
           Ausbildung zur
           examinierten Altenpflegerin
         </span>
@@ -22,7 +22,7 @@
           - 1988 -
         </span>
         <img src="../assets/images/businesswoman.png" class="w-20 h-20 my-4 self-center" alt="Bild">
-        <span>
+        <span class="px-3">
         Ausbildung zur Bürokauffrau
         </span>
       </div>
@@ -31,7 +31,7 @@
           - 2000 -
         </span>
         <img src="../assets/images/medicine.png" class="w-20 h-20 my-4 self-center" alt="Bild">
-        <span>
+        <span class="px-3">
         Selbstständige Kauffrau in der Medizintechnik
         </span>
       </div>
@@ -40,7 +40,7 @@
           - 2021 -
         </span>
         <img src="../assets/images/handshake.png" class="w-20 h-20 my-4 self-center" alt="Bild">
-        <span>
+        <span class="px-3">
         Berufsbetreuerin
         </span>
       </div>

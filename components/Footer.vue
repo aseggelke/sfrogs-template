@@ -7,8 +7,8 @@
   <span>© 2021 Betreuungsbüro Vianden-Klees</span>
   </div>
     <div class="flex flex-col">
-      <a>Impressum</a>
-      <a>Datenschutz</a>
+      <NuxtLink to="/Impressum">Impressum</NuxtLink>
+      <NuxtLink to="/Datenschutz">Datenschutz</NuxtLink>
     </div>
   </div>
 </template>

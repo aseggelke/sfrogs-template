@@ -11,7 +11,7 @@
       <div class="z-20 bg-white w-full duration-500 ease-in-out text-center"
            :class="menuOpen? 'top-0 shadow-xl pt-14 h-64':'h-0 pt-0'">
         <ul>
-          <li class="cursor-pointer border-2 py-2" @click="scrollToSection('berufsberater')"><h2>Der Beruf</h2></li>
+          <li class="cursor-pointer border-b-2 border-t-2 py-2" @click="scrollToSection('berufsberater')"><h2>Der Beruf</h2></li>
           <li class="cursor-pointer border-b-2 py-2" @click="scrollToSection('philosophy')"><h2>Meine Philosophie</h2></li>
           <li class="cursor-pointer border-b-2 py-2" @click="scrollToSection('career')"><h2>Über mich</h2></li>
           <li class="cursor-pointer border-b-2 py-2" @click="scrollToSection('contact')"><h2>Kontakt</h2></li>
@@ -33,10 +33,9 @@ export default {
   },
   methods: {
     scrollToSection(id) {
-      document.getElementById(id).scrollIntoView({
+      const el = document.getElementById(id).scrollIntoView({
         behavior: 'smooth',
-        block: 'center',
-        inline: 'center'
+        block: 'start'
       });
     }
   }

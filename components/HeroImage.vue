@@ -6,10 +6,10 @@
     <div class="hidden lg:block text-lg m-auto text-white">
       <div>
         <ul class="flex justify-center pt-2 text-2xl">
-          <li class="border-r-2 px-4 border-white cursor-pointer" @click="scrollToSection('berufsberater')">Der Beruf</li>
-          <li class="border-r-2 px-4 border-white cursor-pointer" @click="scrollToSection('philosophy')">Meine Philosophie</li>
-          <li class="border-r-2 px-4 border-whitecursor-pointer" @click="scrollToSection('career')">Über mich</li>
-          <li class="px-4 cursor-pointer" @click="scrollToSection('contact')">Kontakt</li>
+          <li class="border-r-2 relative px-4 border-white cursor-pointer menu-point" @click="scrollToSection('berufsberater')">Der Beruf</li>
+          <li class="border-r-2 relative px-4 border-white cursor-pointer menu-point" @click="scrollToSection('philosophy')">Meine Philosophie</li>
+          <li class="border-r-2 relative px-4 border-white cursor-pointer menu-point" @click="scrollToSection('career')">Über mich</li>
+          <li class="px-4 relative cursor-pointer menu-point" @click="scrollToSection('contact')">Kontakt</li>
         </ul>
       </div>
     </div>
@@ -99,6 +99,24 @@ export default {
   background: url('../assets/images/heroImage.jpg');
   background-size: cover;
   @apply h-screen w-screen
+}
+.menu-point{
+   text-decoration: none;
+}
+.menu-point::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+.menu-point:hover::before {
+  transform: scaleX(0.5);
 }
 
 @media only screen and (min-width: 1024px) {
