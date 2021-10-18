@@ -23,15 +23,15 @@ h2{
 html, body {
   font-family: 'Avenir', sans-serif;
   font-size: 15px;
-  @apply text-dark-gray lg:text-lg;
+  @apply text-black lg:text-lg break-words;
 }
 li::marker{
   color: #C9C9C9;
 }
 @media only screen and (min-width: 1024px) {
   .padding {
-    padding-left: 18vw;
-    padding-right: 18vw;
+    padding-left: 15vw;
+    padding-right: 15vw;
   }
 }
 

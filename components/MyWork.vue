@@ -27,7 +27,7 @@
           Suchtkranke
         </li>
         <li class="pb-4 lg:pb-6">
-          Menschen mit psychischen Einschränkungen.
+          Menschen mit psychischen Einschränkungen
         </li>
       </div>
     </ul>

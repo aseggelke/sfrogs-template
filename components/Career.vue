@@ -37,7 +37,7 @@
       </div>
       <div class="bg-dark-gray w-full flex flex-col pb-4 pt-2">
         <span class="italic">
-          - 2021 -
+          - 2020 -
         </span>
         <img src="../assets/images/handshake.png" class="w-20 h-20 my-4 self-center" alt="Bild">
         <span class="px-3">
@@ -63,27 +63,35 @@
           <hr class="border-b border-light-gray w-16 lg:w-32 m-auto mt-1"/>
         </div>
         <ul class="pt-6 list-outside list-disc">
-          <div class="lg:flex gap-8 justify-between">
-            <div>
               <li class="pb-4">
                 Weiterbildung „gerichtliche Betreuung“
+              </li>
+              <li class="pb-4">
+                Aktuelle Entwicklung im Betreuungsrecht
+              </li>
+              <li class="pb-4">
+                Unterstützte Entscheidungsfindung aus kommunikationspsychologischer Sicht
+              </li>
+              <li class="pb-4">
+                Zu dem Thema „Gestörte Lebenslagen“ habe ich folgende Seminare besucht:
+              </li>
+              <li class="ml-4 pb-4">
+                „Der ganz normale Wahnsinn - Klient*innen mit Psychosen“
+              </li>
+              <li class="ml-4 pb-4">
+                „Wimmelbilder im Kopf - Autistische Klient*innen“
+              </li>
+              <li class="ml-4 pb-4">
+                „Nie genug - Klient*innen mit emotional-instabiler Persönlichkeitsstörung (Borderline)“
+              </li>
+              <li class="pb-4">
+                Vermögensvorsorge
               </li>
               <li class="pb-4">
                 Psychose/Schizophrenie
               </li>
               <li class="pb-4">
-                Vermögenssorge
-              </li>
-              <li class="pb-4">
-                Aktuelle Entwicklung im Betreuungsrecht
-              </li>
-            </div>
-            <div>
-              <li class="pb-4">
                 Zivilprozess- und Vollstreckung
-              </li>
-              <li class="pb-4">
-                Hilfsmittelschulung
               </li>
               <li class="pb-4">
                 Intensiv-Seminar Datenschutzbeauftragte
@@ -91,25 +99,9 @@
               <li class="pb-4">
                 Seminare NLP
               </li>
-            </div>
-          </div>
-          <div class="lg:py-12">
-            <div class="pb-4 pt-6 -mx-3">
-              Zu dem Thema „Gestörte Lebenslagen“ habe ich folgende Seminare besucht:
-            </div>
-            <li class="pb-4">
-              „Der ganz normale Wahnsinn - Klient*innen mit Psychosen“
-            </li>
-            <li class="pb-4">
-              „Wimmelbilder im Kopf - Autistische Klient*innen“
-            </li>
-            <li class="pb-4">
-              „Nie genug - Klient*innen mit emotional-instabiler Persönlichkeitsstörung (Borderline)“
-            </li>
-            <li class="pb-4">
-              „Unterstützte Entscheidungsfindung aus kommunikationspsychologischer Sicht“
-            </li>
-          </div>
+              <li class="pb-8">
+                Hilfsmittelschulung
+              </li>
         </ul>
 
         <p class="pt-4 -mx-3 lg:px-20 text-center">

@@ -49,4 +49,16 @@ export default {
   background: url('../assets/images/hand.jpeg');
   background-size: cover;
 }
+@media only screen and (min-width: 560px) {
+  .image {
+    background: url('../assets/images/hand2.jpeg');
+    background-size: cover;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  .image {
+    background: url('../assets/images/hand3.jpeg');
+    background-size: cover;
+  }
+}
 </style>

@@ -11,7 +11,7 @@
         </div>
         <div class="relative bg-dark-gray mt-44 lg:m-0 bg-opacity-80 lg:bg-transparent mx-3 pl-12 pr-5 pt-9 pb-5 text-white">
           <div class="absolute top-3 left-3 w-12 h-12">
-            <img src="../assets/images/quote.png" alt="Image">
+            <img src="../assets/images/quote.png" class="w-7 h-7" alt="Image">
           </div>
           <p class="text-white italic">
             Die Würde aller Menschen steht im Mittelpunkt meiner Arbeit.
@@ -40,5 +40,12 @@ export default {
   background: url('../assets/images/pilosophy.jpg');
   background-size: cover;
   @apply lg:bg-none;
+}
+@media only screen and (min-width: 660px) {
+  .image {
+    background: url('../assets/images/pilosophy2.jpg');
+    background-size: cover;
+    @apply lg:bg-none;
+  }
 }
 </style>
