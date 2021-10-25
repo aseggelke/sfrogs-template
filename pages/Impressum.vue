@@ -7,7 +7,7 @@
       <div class="text-lg m-auto text-white">
         <div>
           <div class="flex justify-center pt-2 text-2xl">
-            <NuxtLink class="relative px-4 cursor-pointer menu-point" to="/">Zurück Zur Startseite</NuxtLink>
+            <NuxtLink class="relative px-4 cursor-pointer menu-point" to="/">Zurück zur Startseite</NuxtLink>
           </div>
         </div>
       </div>
