@@ -16,11 +16,11 @@
     <div class="absolute bottom-10 hidden lg:block text-white">
       <div class="flex pb-4">
         <img class="mx-6 h-6 w-6" src="../assets/images/phone-call.png" alt="Image">
-        <a href="tel:022623050390">02262 / 30 50 390</a>
+        <a class="hover:underline" href="tel:022623050390">02262 / 30 50 390</a>
       </div>
       <div class="flex">
         <img class="mx-6 h-6 w-6" src="../assets/images/mail.png" alt="Image">
-        <span><a href="mailto:vianden-klees@betreuungsbuero.de">vianden-klees@betreuungsbuero.de</a></span>
+        <span><a class="hover:underline" href="mailto:vianden-klees@betreuungsbuero.de">vianden-klees@betreuungsbuero.de</a></span>
       </div>
     </div>
     <div @click="openContact" :class="{'w-60': isOpended}"
