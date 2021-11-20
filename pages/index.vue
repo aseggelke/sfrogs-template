@@ -1,14 +1,14 @@
 <template>
   <div>
-    <TestComponent />
+    <HeroImage />
   </div>
 </template>
 
 <script>
-import TestComponent from "~/components/TestComponent";
+import HeroImage from "@/components/Hero";
 
 export default {
   name: 'Startseite',
-  components: {TestComponent},
+  components: {HeroImage},
 }
 </script>
