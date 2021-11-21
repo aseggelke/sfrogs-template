@@ -10,9 +10,11 @@
     "lint": "eslint --ext .js --ignore-path .gitignore ."
   },
   "dependencies": {
+    "@ivanv/vue-collapse-transition": "^1.0.2",
     "aos": "^2.3.4",
     "core-js": "^3.9.1",
     "nuxt": "^2.15.4",
+    "vue-observe-visibility": "^1.0.0",
     "vue-typer": "^1.2.0"
   },
   "devDependencies": {
