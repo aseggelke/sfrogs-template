@@ -18,14 +18,17 @@ export default {
 <style>
 h1{
   font-family: "Courier New",serif;
-  @apply text-5xl md:text-8xl;
+  @apply text-5xl md:text-7xl lg:text-8xl;
 
 }
 h2{
-  @apply text-3xl md:text-6xl;
+  @apply text-3xl md:text-5xl lg:text-6xl;
+}
+h4{
+  @apply text-2xl md:text-3xl lg:text-4xl;
 }
 body{
   font-family: Courier,serif;
-  @apply text-gray-dark leading-tight
+  @apply text-gray-dark leading-tight md:text-lg lg:text-xl
 }
 </style>

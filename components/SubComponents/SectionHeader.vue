@@ -1,12 +1,12 @@
 <template>
-    <div class="pt-10 pb-24">
-      <div class="m-auto bg-white h-24 w-24 mb-3 shadow-lg rounded-full">
-        <div class="h-14 w-14 m-auto pt-5">
-          <img :src="require('@/assets/images/'+icon+'.png')" alt="brushes">
+    <div class="pt-10 pb-20">
+      <div class="m-auto bg-white lg:w-32 lg:h-32 h-24 w-24 mb-3 shadow-lg rounded-full">
+        <div class="h-14 w-14 lg:w-20 lg:h-20 m-auto pt-5">
+          <img :src="require('@/assets/images/'+icon+'.png')" :alt="icon">
         </div>
       </div>
       <div v-observe-visibility="{callback: visibilityChanged,once: true,throttle: throttle,}"
-           class="text-xl text-center">
+           class="text-xl md:text-2xl text-center lg:pb-6">
         <vue-typer v-if="isVisible" :text="headline" :repeat="0"/>
       </div>
       <slot/>

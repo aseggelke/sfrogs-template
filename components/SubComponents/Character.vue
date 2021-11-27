@@ -1,7 +1,7 @@
 <template>
-  <div class=" mt-10">
-    <img :src="require('@/assets/images/'+imageName+'.png')" class="w-42 h-42 m-auto" alt="fotos"/>
-    <div v-observe-visibility="{callback: visibilityChanged,throttle: 600,}" :class="'bg-'+bgColor" class="mx-4 rounded-xl border-white shadow-lg border-2">
+  <div class="mt-10">
+    <img :src="require('@/assets/images/'+imageName+'.png')" class="w-42 h-36 m-auto" alt="fotos"/>
+    <div v-observe-visibility="{callback: visibilityChanged,throttle: 600,}" :class="'bg-'+bgColor" class="lg:hidden mx-4 rounded-xl border-white shadow-lg border-2">
       <div class="px-5 pt-2 pb-2 text-white text-center">
         <p @click="isVisible = !isVisible " class="font-semibold text-lg">{{ name }}</p>
         <CollapseTransition>
@@ -16,6 +16,17 @@
         </CollapseTransition>
       </div>
     </div>
+        <div class="hidden lg:block mx-4 rounded-xl border-white shadow-lg border-2" :class="'bg-'+bgColor">
+          <div class="font-light px-5 pt-2 pb-2 text-white text-center">
+            <p class="font-semibold text-lg">{{ name }}</p>
+            <p :class="bgColor === 'yellow'? 'text-orange' :'text-yellow'" class="pt-4">Alter</p>
+            <p>{{ age }} Jahre</p>
+            <p :class="bgColor === 'yellow'? 'text-orange' :'text-yellow'" class="pt-4">Ausbildung</p>
+            <p>Bachelor Medieninformatik</p>
+            <p :class="bgColor === 'yellow'? 'text-orange' :'text-yellow'" class="pt-4">Interessen</p>
+            <p class="pb-2">{{ interests }}</p>
+          </div>
+        </div>
   </div>
 </template>
 

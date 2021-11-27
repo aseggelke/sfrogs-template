@@ -3,6 +3,10 @@ module.exports = {
   darkMode: false,
   theme: {
     extend: {
+      backgroundImage: {
+        'hero': "url('assets/images/pencil-mobile.png')",
+        'hero-desktop': "url('assets/images/pencil-desktop.png')",
+      },
       textColor: {
         'yellow': '#EBB270',
         gray: {
@@ -31,6 +35,12 @@ module.exports = {
         },
         'orange': '#D36B36',
         'yellow': '#EBB270',
+      }),
+      borderColor: theme => ({
+        ...theme('colors'),
+        DEFAULT: theme('colors.gray.300', 'currentColor'),
+        'yellow': '#EBB270',
+        'orange': '#D36B36',
       }),
       maxWidth: {
         grid: '75rem',

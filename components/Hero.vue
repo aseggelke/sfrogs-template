@@ -1,8 +1,8 @@
 <template>
-  <div class="h-screen relative image bg-gray-light">
-    <div class="pt-16">
+  <div class="h-screen relative image">
+    <div class="pt-16 lg:pt-80 lg:pl-80">
       <h1 class="text-center text-gray-dark">
-        <vue-typer text='WEBDESIGNER' pre-type-delay='1000' :repeat="0"/>
+        <vue-typer text='WEBDESIGNER' :pre-type-delay='1000' :repeat="0"/>
       </h1>
       <div class="flex justify-center" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="800" data-aos-delay="1800">
         <h2 class="pr-2 text-yellow">Seggelke</h2>
@@ -50,7 +50,7 @@ export default {
 }
 
 .image {
-  background-image: url("assets/images/pencil.svg");
+  @apply bg-hero lg:bg-hero-desktop;
   background-size: cover;
 }
 

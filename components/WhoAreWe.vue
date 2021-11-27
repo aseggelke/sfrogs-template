@@ -1,7 +1,7 @@
 <template>
   <div class="bg-gradient-to-t to-orange via-gray from-yellow">
     <SectionHeader headline="Wer sind wir?" icon="friends">
-      <div>
+      <div class="lg:flex xl:px-40 justify-center">
         <Character image-name="flo" bg-color="orange" name="Florian Marks" :age="26"
                    interests="Design, User Experience, Softwareentwicklung"/>
         <Character image-name="aaron" bg-color="yellow" name="Aaron Seggelke" :age="24"

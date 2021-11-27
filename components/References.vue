@@ -1,7 +1,7 @@
 <template>
   <div class="bg-gradient-to-t to-yellow via-yellow from-white">
-    <SectionHeader headline="Unsere Referenzen" icon="prasentation" :throttle="300">
-      <div>
+    <SectionHeader headline="Unsere Referenzen" icon="prasentation" :throttle="200">
+      <div class="pt-12 -mb-10">
           <Reference headline="Praxis für Osteopathie Bärbel Schenk" image="schenk"/>
           <Reference headline="Betreuungsbüro Vianden-Klees" image="kremer"/>
       </div>
