@@ -3,6 +3,9 @@ module.exports = {
   darkMode: false,
   theme: {
     extend: {
+      spacing: {
+        '100': '34rem',
+      },
       backgroundImage: {
         'hero': "url('assets/images/pencil-mobile.png')",
         'hero-desktop': "url('assets/images/pencil-desktop.png')",

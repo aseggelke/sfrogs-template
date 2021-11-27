@@ -4,8 +4,11 @@
       <div class="px-12 text-xl">
         {{ headline }}
       </div>
-      <div class="mt-28 grow" ref="image">
-          <img :src="require('@/assets/images/iphone-'+image+'.png')" alt="website"/>
+      <div class="mt-28 grow lg:hidden" ref="image">
+          <img :src="require('@/assets/images/iphone-'+image+'.png')" class="m-auto" alt="website"/>
+      </div>
+      <div class="mt-12 hidden lg:block">
+        <img :src="require('@/assets/images/iphone-'+image+'.png')" class="m-auto h-100" alt="website"/>
       </div>
     </div>
   </div>

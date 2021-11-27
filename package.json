@@ -16,7 +16,6 @@
     "nuxt": "^2.15.4",
     "vue-observe-visibility": "^1.0.0",
     "vue-typer": "^1.2.0",
-    "vue-zoom-scroll": "^1.0.29"
   },
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^4.0.1",
