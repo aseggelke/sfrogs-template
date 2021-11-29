@@ -38,7 +38,12 @@
           E-Mail: <a href='mailto:vianden-klees@betreuungsbuero.de'>vianden-klees@betreuungsbuero.de</a></br></p>
         <p><strong>Berufsbezeichnung:</strong><br>Berufsbetreuer<br></p>
         <p><strong>Aufsichtsbehörde:</strong><br>
-          Hier die Aufsichtsbehörde angeben!!!<br></p>
+          Oberbergischer Kreis<br>
+          Der Landrat<br>
+          Kreisjugendamt<br>
+          Betreuungsstelle<br>
+          Am Wiedenhof 9<br>
+          51643 Gummersbach<br></p>
         <p><strong>Haftungsausschluss: </strong><br><br><strong>Haftung für Inhalte</strong><br><br>
           Die Inhalte unserer Seiten wurden mit größter Sorgfalt erstellt. Für die Richtigkeit, Vollständigkeit und
           Aktualität der Inhalte können wir jedoch keine Gewähr übernehmen. Als Diensteanbieter sind wir gemäß § 7 Abs.1

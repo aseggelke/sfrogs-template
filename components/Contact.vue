@@ -21,7 +21,7 @@
     </div>
     <div :class="{'pointer-events-none opacity-30':isDisabled}" class="text-white bg-dark-gray py-2 text-center cursor-pointer m-auto w-40 mb-10">
       <a
-         :href="'mailto:vianden-klees@betreuungsbuero.de?subject=Von ' + name+' Betreff:' +subject +'&body='+message"
+         :href="'mailto:Info@Betreuung-Vianden-Klees.de?subject=Von ' + name+' Betreff:' +subject +'&body='+message"
          class="focus:outline-none">
         Fortfahren
       </a>

@@ -20,7 +20,7 @@
       </div>
       <div class="flex">
         <img class="mx-6 h-6 w-6" src="../assets/images/mail.png" alt="Image">
-        <span><a class="hover:underline" href="mailto:vianden-klees@betreuungsbuero.de">vianden-klees@betreuungsbuero.de</a></span>
+        <span><a class="hover:underline" href="mailto:Info@Betreuung-Vianden-Klees.de">Info@Betreuung-Vianden-Klees.de</a></span>
       </div>
     </div>
     <div @click="openContact" :class="{'w-60': isOpended}"
@@ -31,7 +31,7 @@
       </div>
       <div class="flex pb-4">
         <img class="pt-5 pl-3 h-12" src="../assets/images/mail.png" alt="Image">
-        <a v-if="showDelayedElement" class="hover:underline text-center" href="mailto:vianden-klees@betreuungsbuero.de">
+        <a v-if="showDelayedElement" class="hover:underline text-center" href="mailto:Info@Betreuung-Vianden-Klees.de">
           <span class="">vianden-klees@</span>
           <span class="">betreuungsbuero.de</span>
         </a>

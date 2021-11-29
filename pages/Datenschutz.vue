@@ -98,7 +98,7 @@
           51674 Wiehl</p>
 
         <p>Telefon: 02262 30 50 390<br/>
-          E-Mail: vianden-klees@betreuungsbuero.de</p>
+          E-Mail: Info@Betreuung-Vianden-Klees.de</p>
         <p>Verantwortliche Stelle ist die nat&uuml;rliche oder juristische Person, die allein oder gemeinsam mit anderen
           &uuml;ber die Zwecke und Mittel der Verarbeitung von personenbezogenen Daten (z.&nbsp;B. Namen,
           E-Mail-Adressen

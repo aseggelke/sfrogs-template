@@ -19,7 +19,7 @@
       </p>
     </div>
     <div id="berufsberater" class="text-white image">
-      <div class="bg-dark-gray bg-opacity-80 md:px-16 pb-16 pt-8 px-7 padding">
+      <div class="bg-dark-gray bg-opacity-80 md:px-16 pb-16 pt-8 px-10 padding">
         <div class="relative">
           <div class="mb-9 text-center">
             <h2>
@@ -27,11 +27,26 @@
             </h2>
             <hr class="border-b border-white lg:w-32 w-16 m-auto mt-1"/>
           </div>
-          <p class="lg:text-center">Betreuung ist nicht Bevormundung, sondern
-            Hilfe in schwierigen Momenten des Lebens.
-            Deshalb unterstütze ich meine Klienten als
-            Ansprechpartnerin in verschiedenen Bereichen und
-            in Zusammenarbeit mit anderen Helfern.</p>
+          <p>
+            Kommunikationsunterstützende Entscheidungsfindung.
+            Die Wünsche, der/des Betreuten herausfinden und bei der Umsetzung dieser behilflich
+            sein.
+          </p>
+          <br>
+          <ul class="list-outside list-disc gap-6 pb-2">
+            <li>Koordination von Hilfen.</li>
+            <li>Unterstützung zur Verselbstständigung der/des Betreuten.</li>
+            <li>Vertretung der jeweiligen festgelegten Aufgabenkreise:</li>
+          </ul>
+          <ul class="list-outside list-disc gap-6 pl-8">
+            <li>Gesundheitssorge</li>
+            <li>Vermögenssorge</li>
+            <li>Sozial-und Versicherungsträgern</li>
+            <li>Heimplatzangelegenheiten</li>
+            <li>RegelungendesPostverkehrs</li>
+            <li>Aufenthaltsbestimmung</li>
+            <li>Wohnungsangelegenheiten</li>
+          </ul>
         </div>
       </div>
     </div>
@@ -49,12 +64,14 @@ export default {
   background: url('../assets/images/hand.jpeg');
   background-size: cover;
 }
+
 @media only screen and (min-width: 560px) {
   .image {
     background: url('../assets/images/hand2.jpeg');
     background-size: cover;
   }
 }
+
 @media only screen and (min-width: 1400px) {
   .image {
     background: url('../assets/images/hand3.jpeg');
