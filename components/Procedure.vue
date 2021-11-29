@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-gradient-to-t to-gray-light via-orange from-orange">
+  <div class="bg-gradient-to-t to-gray via-orange from-orange">
     <SectionHeader icon="paint-brush" headline="Was machen wir?">
       <div class="xl:px-40 2xl:px-64">
         <div class="lg:flex">
