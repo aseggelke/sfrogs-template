@@ -5,10 +5,14 @@
         {{ headline }}
       </div>
       <div class="mt-28 grow lg:hidden" ref="image">
+        <a :href="link">
           <img :src="require('@/assets/images/iphone-'+image+'.png')" class="m-auto" alt="website"/>
+        </a>
       </div>
       <div class="mt-12 hidden lg:block">
-        <img :src="require('@/assets/images/iphone-'+image+'.png')" class="m-auto h-100" alt="website"/>
+        <a :href="link">
+          <img :src="require('@/assets/images/iphone-'+image+'.png')" class="m-auto h-100" alt="website"/>
+        </a>
       </div>
     </div>
   </div>
@@ -24,6 +28,11 @@ export default {
       default: ''
     },
     headline: {
+      type: String,
+      required: true,
+      default: ''
+    },
+    link: {
       type: String,
       required: true,
       default: ''
