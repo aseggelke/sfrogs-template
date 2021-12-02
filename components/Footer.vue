@@ -2,7 +2,7 @@
   <div class="bg-dark-gray text-white flex text-sm justify-between mt-10 py-2 px-4">
   <div class="flex flex-col">
     <div class="flex">
-  <span>Made by web-sm</span>
+  <span>Made by <a class="hover:underline" href="https://web-sm.de/">web-sm</a></span>
     </div>
   <span>© 2021 Betreuungsbüro Vianden-Klees</span>
   </div>
