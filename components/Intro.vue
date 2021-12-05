@@ -27,15 +27,12 @@
             </h2>
             <hr class="border-b border-white lg:w-32 w-16 m-auto mt-1"/>
           </div>
-          <p>
-            Kommunikationsunterstützende Entscheidungsfindung.
-            Die Wünsche, der/des Betreuten herausfinden und bei der Umsetzung dieser behilflich
-            sein.
-          </p>
-          <br>
           <ul class="list-outside list-disc gap-6 pb-2">
-            <li>Koordination von Hilfen.</li>
-            <li>Unterstützung zur Verselbstständigung der/des Betreuten.</li>
+            <li>Kommunikationsunterstützende Entscheidungsfindung</li>
+            <li>Die Wünsche, der/des Betreuten herausfinden und bei der Umsetzung dieser behilflich
+            sein</li>
+            <li>Koordination von Hilfen</li>
+            <li>Unterstützung zur Verselbstständigung der/des Betreuten</li>
             <li>Vertretung der jeweiligen festgelegten Aufgabenkreise:</li>
           </ul>
           <ul class="list-outside list-disc gap-6 pl-8">
@@ -43,7 +40,7 @@
             <li>Vermögenssorge</li>
             <li>Sozial-und Versicherungsträgern</li>
             <li>Heimplatzangelegenheiten</li>
-            <li>RegelungendesPostverkehrs</li>
+            <li>Regelungen des Postverkehrs</li>
             <li>Aufenthaltsbestimmung</li>
             <li>Wohnungsangelegenheiten</li>
           </ul>
