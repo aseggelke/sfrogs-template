@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="text-center text-lg text-white">
+    <div class="text-center text-lg text-white overflow-x-hidden relative">
       <div class="px-12 text-xl">
         {{ headline }}
       </div>
