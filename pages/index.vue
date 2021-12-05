@@ -1,6 +1,5 @@
 <template>
   <div class="overflow-x-hidden">
-    <Menu/>
     <hero-image/>
     <intro/>
     <my-work/>
@@ -18,11 +17,10 @@ import Philosophy from "@/components/Philosophy";
 import MyWork from "@/components/MyWork";
 import Career from "@/components/Career";
 import Contact from "@/components/Contact";
-import Menu from "@/components/menu";
 import Footer from "@/components/Footer";
 
 export default {
   name: 'Startseite',
-  components: {Footer, Contact, Career, MyWork, Philosophy, Intro, HeroImage, Menu},
+  components: {Footer, Contact, Career, MyWork, Philosophy, Intro, HeroImage},
 }
 </script>

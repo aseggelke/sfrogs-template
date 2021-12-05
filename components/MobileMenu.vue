@@ -8,7 +8,8 @@
         <div style="height:2px" class="w-10 my-2 transition-all duration-300"
              :class="menuOpen? 'bg-black changedLast': 'bg-white'"/>
       </div>
-      <div class="z-20 bg-white w-full duration-500 ease-in-out text-center"
+      <div  v-if="$store.state.imageLoaded"
+            class="z-20 bg-white w-full duration-500 ease-in-out text-center"
            :class="menuOpen? 'top-0 shadow-xl pt-14 h-64':'h-0 pt-0'">
         <ul>
           <li class="cursor-pointer border-b-2 border-t-2 py-2" @click="scrollToSection('berufsberater')"><h2>Der Beruf</h2></li>
@@ -25,7 +26,7 @@
 <script>
 
 export default {
-  name: "menu",
+  name: "MobileMenu",
   data() {
     return {
       menuOpen: false,
