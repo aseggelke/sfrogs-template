@@ -99,8 +99,8 @@
       <h3>Hinweis zur verantwortlichen Stelle</h3>
       <p>Die verantwortliche Stelle f&uuml;r die Datenverarbeitung auf dieser Website ist:</p>
       <p>Simone Vianden-Klees<br/>
-        Nibelungenstra&szlig;e 10<br/>
-        51674 Wiehl</p>
+        Postfach 11 32<br/>
+        51655 Wiehl</p>
 
       <p>Telefon: 02262 30 50 390<br/>
         E-Mail: Info@Betreuung-Vianden-Klees.de</p>

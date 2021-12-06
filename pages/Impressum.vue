@@ -29,13 +29,13 @@
         <p>Angaben gemäß § 5 TMG</p>
         <p>Simone Vianden-Klees<br>Berufsbetreuer
         <p>
-          Nibelungenstraße 10<br>
-          51674 Wiehl <br>
+          Postfach 11 32<br>
+          51655 Wiehl <br>
 
         </p>
         <p><strong>Kontakt:</strong> <br>
           Telefon: 02262 -30 50 390<br>
-          E-Mail: <a href='mailto:vianden-klees@betreuungsbuero.de'>vianden-klees@betreuungsbuero.de</a></br></p>
+          E-Mail: <a href='mailto:Info@Betreuung-Vianden-Klees.de'>Info@Betreuung-Vianden-Klees.de</a></br></p>
         <p><strong>Berufsbezeichnung:</strong><br>Berufsbetreuer<br></p>
         <p><strong>Aufsichtsbehörde:</strong><br>
           Oberbergischer Kreis<br>
