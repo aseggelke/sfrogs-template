@@ -34,7 +34,7 @@
 
         </p>
         <p><strong>Kontakt:</strong> <br>
-          Telefon: 02262 -30 50 390<br>
+          Telefon: 02262 - 30 50 390<br>
           E-Mail: <a href='mailto:Info@Betreuung-Vianden-Klees.de'>Info@Betreuung-Vianden-Klees.de</a></br></p>
         <p><strong>Berufsbezeichnung:</strong><br>Berufsbetreuer<br></p>
         <p><strong>Aufsichtsbehörde:</strong><br>
