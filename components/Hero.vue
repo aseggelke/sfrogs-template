@@ -5,9 +5,9 @@
         <vue-typer text='WEBDESIGNER' :pre-type-delay='1000' :repeat="0"/>
       </h1>
       <div class="flex justify-center" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="800" data-aos-delay="1800">
-        <h2 class="pr-2 text-yellow">Seggelke</h2>
+        <h2 class="pr-2 text-black">Seggelke</h2>
         <h2 class="pr-2 text-black">&</h2>
-        <h2 class="text-orange">Marks</h2>
+        <h2 class="text-black">Marks</h2>
       </div>
     </div>
     <div @click="scrollToNextElement" class="
