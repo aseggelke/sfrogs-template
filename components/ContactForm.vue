@@ -18,7 +18,7 @@
         </div>
         <div :class="{'pointer-events-none opacity-30':isDisabled}" class="text-white rounded-xl bg-yellow py-2 text-center cursor-pointer m-auto w-40">
           <a
-            href=""
+            href="mailto:info@web-sm.de"
             class="focus:outline-none">
             Fortfahren
           </a>
