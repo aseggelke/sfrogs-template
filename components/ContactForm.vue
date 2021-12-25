@@ -56,6 +56,6 @@ export default {
 <style>
   .footer .vue-typer .custom.char.typed {
     color: #505050;
-    font-size: 1.5em;
+    font-size: 1.3em;
   }
 </style>

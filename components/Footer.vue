@@ -11,10 +11,11 @@
       </div>
       <div class="flex py-4 justify-center">
         <div class="flex">
-
           <Social color="orange" image="shield" caption="Impressum"/>
           <Social class="pl-4 md:pl-10 xl:pl-20" color="orange" image="email" caption="info@web-sm.de"/>
-          <Social class="pl-4 md:pl-10 xl:pl-20"  color="orange" image="fingerprint" caption="Datenschutz"/>
+          <a href="/Datenschutz">
+            <Social class="pl-4 md:pl-10 xl:pl-20"  color="orange" image="fingerprint" caption="Datenschutz"/>
+          </a>
         </div>
       </div>
       <div class="text-center justify-center bg-orange text-white text-xs py-1 flex">

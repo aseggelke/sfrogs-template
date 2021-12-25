@@ -66,6 +66,6 @@ export default {
 <style>
   .procedure .vue-typer .custom.char.typed {
     color: #fff;
-    font-size: 1.5em;
+    font-size: 1.3em;
   }
 </style>
