@@ -1,6 +1,6 @@
 <template>
   <div class="mt-10">
-    <img :src="require('@/assets/images/'+imageName+'.png')" class="w-42 h-36 m-auto" alt="fotos"/>
+    <img :src="require('@/assets/images/'+imageName+'.png')" class="w-50 h-44 m-auto" alt="fotos"/>
     <div v-observe-visibility="{callback: visibilityChanged,throttle: 600,}" :class="'bg-'+bgColor" class="lg:hidden mx-4 rounded-xl border-white shadow-lg border-2">
       <div class="px-5 pt-2 pb-2 text-white text-center">
         <p @click="isVisible = !isVisible " class="font-semibold text-lg">{{ name }}</p>

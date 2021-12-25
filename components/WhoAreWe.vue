@@ -1,6 +1,6 @@
 <template>
-  <div class="bg-gradient-to-t to-orange via-gray from-yellow">
-    <SectionHeader headline="Wer sind wir?" icon="friends">
+  <div class="bg-gray">
+    <SectionHeader headline="Wer sind wir?" icon="friends" class="whoarewe">
       <div class="lg:flex xl:px-40 justify-center">
         <Character image-name="flo" bg-color="orange" name="Florian Marks" :age="26"
                    interests="Design, User Experience, Softwareentwicklung"/>
@@ -23,3 +23,9 @@ export default {
   },
 }
 </script>
+<style>
+  .whoarewe .vue-typer .custom.char.typed {
+    color: #505050;
+    font-size: 1.5em;
+  }
+</style>

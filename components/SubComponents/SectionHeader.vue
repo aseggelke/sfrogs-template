@@ -54,3 +54,8 @@ export default {
   }
 }
 </script>
+<style>
+  .vue-typer .custom.char.typed {
+    font-family: "Courier New",serif;
+  }
+</style>

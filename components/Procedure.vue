@@ -1,6 +1,6 @@
 <template>
-  <div class="bg-gradient-to-t to-gray via-orange from-orange">
-    <SectionHeader icon="paint-brush" headline="Was machen wir?">
+  <div class="bg-orange">
+    <SectionHeader icon="paint-brush" headline="Was machen wir?" class="procedure">
       <div class="xl:px-40 2xl:px-64">
         <div class="lg:flex">
         <Actionbox
@@ -18,7 +18,7 @@
           headline="Optimierter Webauftritt für alle Endgeräte"
           icon="tv">
           <template #text>
-            <p>Bei der Erstellung der Website verwenden wir einen sogenannten <span class="text-yellow">Mobile-First-Ansatz</span>,
+            <p>Bei der Erstellung der  Website verwenden wir einen sogenannten <span class="text-yellow">Mobile-First-Ansatz</span>,
               wodurch bei der
               Gestaltung der Website ein besonderer Wert auf mobile Geräte gesetzt wird.</p>
           </template>
@@ -62,3 +62,10 @@ export default {
   },
 }
 </script>
+
+<style>
+  .procedure .vue-typer .custom.char.typed {
+    color: #fff;
+    font-size: 1.5em;
+  }
+</style>

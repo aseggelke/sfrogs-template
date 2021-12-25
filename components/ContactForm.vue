@@ -1,6 +1,6 @@
 <template>
   <div class="px-9 xl:px-40 2xl:px-64">
-    <SectionHeader headline="Worauf wartest du?" icon="letters">
+    <SectionHeader headline="Worauf wartest du?" icon="letters" class="footer">
       <div class="text-center m-auto pt-8 pb-4">
         <p>Schick uns eine Nachricht und
           erzähle uns von deiner Idee oder
@@ -52,3 +52,10 @@ export default {
   },
 }
 </script>
+
+<style>
+  .footer .vue-typer .custom.char.typed {
+    color: #505050;
+    font-size: 1.5em;
+  }
+</style>

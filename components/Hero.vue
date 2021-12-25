@@ -2,12 +2,12 @@
   <div class="h-screen relative image">
     <div class="pt-16 lg:pt-80 lg:pl-80">
       <h1 class="text-center text-gray-dark">
-        <vue-typer text='WEBDESIGNER' :pre-type-delay='1000' :repeat="0"/>
+        <vue-typer text='WEBDESIGN' :pre-type-delay='1000' :repeat="0"/>
       </h1>
       <div class="flex justify-center" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="800" data-aos-delay="1800">
-        <h2 class="pr-2 text-black">Seggelke</h2>
-        <h2 class="pr-2 text-black">&</h2>
-        <h2 class="text-black">Marks</h2>
+        <h2 class="text-black pr-2 ">Marks</h2>
+        <h2 class="text-black pr-2 ">&</h2>
+        <h2 class="text-black pr-2 ">Seggelke</h2>
       </div>
     </div>
     <div @click="scrollToNextElement" class="
