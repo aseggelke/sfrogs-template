@@ -25,6 +25,10 @@ h2{
   font-family: "Courier New",serif;
   @apply text-3xl md:text-5xl lg:text-6xl;
 }
+h3{
+  font-family: "Courier New",serif;
+  @apply text-3xl md:text-5xl lg:text-6xl;
+}
 h4{
   font-family: "Courier New",serif;
   @apply text-2xl md:text-3xl lg:text-4xl;
