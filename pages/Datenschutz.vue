@@ -2,9 +2,10 @@
   <div>
     <HeroImageDatenschutz/>
 
-    <div class="py-12 px-9 md:px-32 bg-gray">
+    <div class="py-12 px-9 md:px-32">
+      <div class="pb-8">
      <h2>1. Datenschutz auf einen Blick</h2>
-     <p>Allgemeine Hinweise</p>
+     <h3>Allgemeine Hinweise</h3>
      <p>Die folgenden Hinweise geben einen einfachen &Uuml;berblick dar&uuml;ber, was mit Ihren personenbezogenen
        Daten
        passiert, wenn Sie diese Website besuchen. Personenbezogene Daten sind alle Daten, mit denen Sie pers&ouml;nlich
@@ -33,6 +34,7 @@
        Weiteren
        steht Ihnen ein Beschwerderecht bei der zust&auml;ndigen Aufsichtsbeh&ouml;rde zu.</p>
      <p>Hierzu sowie zu weiteren Fragen zum Thema Datenschutz k&ouml;nnen Sie sich jederzeit an uns wenden.</p>
+   </div>
    <div class="pb-8">
      <h2>2. Hosting</h2>
      <h3>Strato</h3>
@@ -71,12 +73,12 @@
        nicht m&ouml;glich.</p>
      <h3>Hinweis zur verantwortlichen Stelle</h3>
      <p>Die verantwortliche Stelle f&uuml;r die Datenverarbeitung auf dieser Website ist:</p>
-     <p>Simone Vianden-Klees<br/>
-       Postfach 11 32<br/>
-       51655 Wiehl</p>
+     <p>Florian Marks<br/>
+       Braunstraße 15<br/>
+       50933 Köln</p>
 
-     <p>Telefon: 02262 30 50 390<br/>
-       E-Mail: Info@Betreuung-Vianden-Klees.de</p>
+     <p>Telefon: 0176 72755862<br/>
+       E-Mail: info@web-sm.de</p>
      <p>Verantwortliche Stelle ist die nat&uuml;rliche oder juristische Person, die allein oder gemeinsam mit anderen
        &uuml;ber die Zwecke und Mittel der Verarbeitung von personenbezogenen Daten (z.&nbsp;B. Namen,
        E-Mail-Adressen
@@ -240,10 +242,30 @@ export default {
 <style>
 h2 {
   margin-bottom: 20px;
+  font-size: 35px;
+}
+h3 {
   font-size: 30px;
+  font-family: "Courier",serif;
+}
+h4 {
+  font-size: 25px;
+  font-family: "Courier",serif;
+}
+p, h3, h4 {
+  margin-bottom: 15px;
 }
 
-h3 {
-  font-size: 25px;
+p{
+  font-family: "Courier New",serif;
 }
+
+li {
+  list-style-type: circle;
+  list-style-position: outside;
+  margin-left: 30px;
+  margin-bottom: 10px;
+  font-family: "Courier New",serif;
+}
+
 </style>

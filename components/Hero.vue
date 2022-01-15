@@ -5,7 +5,7 @@
         <vue-typer text='WEBDESIGN' :pre-type-delay='1000' :repeat="0"/>
       </h1>
       <div class="flex justify-center" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="800" data-aos-delay="1800">
-        <h2 class="text-black pr-2 ">Marks</h2>
+        <h2 class="text-black pr-2 pl-2">Marks</h2>
         <h2 class="text-black pr-2 ">&</h2>
         <h2 class="text-black pr-2 ">Seggelke</h2>
       </div>
