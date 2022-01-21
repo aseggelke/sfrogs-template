@@ -11,7 +11,9 @@
       </div>
       <div class="flex py-4 justify-center">
         <div class="flex">
+          <a href="/Impressum">
           <Social color="orange" image="shield" caption="Impressum"/>
+        </a>
           <Social class="pl-4 md:pl-10 xl:pl-20" color="orange" image="email" caption="info@web-sm.de"/>
           <a href="/Datenschutz">
             <Social class="pl-4 md:pl-10 xl:pl-20"  color="orange" image="fingerprint" caption="Datenschutz"/>
