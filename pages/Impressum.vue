@@ -13,8 +13,8 @@
         </p>
         <p><strong>Kontakt:</strong> <br>
           Telefon: 0176 72755862<br>
-          E-Mail: <a href='mailto:info@web-sm.de'>info@web-sm.de</a></br></p>
-        <p><strong>Haftungsausschluss: </strong><br><br><strong>Haftung für Inhalte</strong><br><br>
+          E-Mail: <a href='mailto:info@web-sm.de'>info@web-sm.de</a></br></p><br>
+        <p><strong>Haftungsausschluss: </strong><br><strong>Haftung für Inhalte</strong><br>
           Die Inhalte unserer Seiten wurden mit größter Sorgfalt erstellt. Für die Richtigkeit, Vollständigkeit und
           Aktualität der Inhalte können wir jedoch keine Gewähr übernehmen. Als Diensteanbieter sind wir gemäß § 7 Abs.1
           TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 TMG
@@ -23,7 +23,7 @@
           zur Entfernung oder Sperrung der Nutzung von Informationen nach den allgemeinen Gesetzen bleiben hiervon
           unberührt. Eine diesbezügliche Haftung ist jedoch erst ab dem Zeitpunkt der Kenntnis einer konkreten
           Rechtsverletzung möglich. Bei Bekanntwerden von entsprechenden Rechtsverletzungen werden wir diese Inhalte
-          umgehend entfernen.<br><br><strong>Urheberrecht</strong><br><br>
+          umgehend entfernen.<br><br><strong>Urheberrecht</strong><br>
           Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen
           Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen
           des Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers. Downloads und
@@ -31,7 +31,7 @@
           dieser Seite nicht vom Betreiber erstellt wurden, werden die Urheberrechte Dritter beachtet. Insbesondere
           werden Inhalte Dritter als solche gekennzeichnet. Sollten Sie trotzdem auf eine Urheberrechtsverletzung
           aufmerksam werden, bitten wir um einen entsprechenden Hinweis. Bei Bekanntwerden von Rechtsverletzungen werden
-          wir derartige Inhalte umgehend entfernen.<br><br><strong>Datenschutz</strong><br><br>
+          wir derartige Inhalte umgehend entfernen.<br><br><strong>Datenschutz</strong><br>
           Die Nutzung unserer Webseite ist in der Regel ohne Angabe personenbezogener Daten möglich. Soweit auf unseren
           Seiten personenbezogene Daten (beispielsweise Name, Anschrift oder eMail-Adressen) erhoben werden, erfolgt
           dies, soweit möglich, stets auf freiwilliger Basis. Diese Daten werden ohne Ihre ausdrückliche Zustimmung
@@ -76,30 +76,29 @@ export default {
 
 <style>
 h2 {
-  margin-bottom: 20px;
-  font-size: 35px;
-}
-h3 {
-  font-size: 30px;
-  font-family: "Courier",serif;
-}
-h4 {
+  margin-bottom: 30px;
   font-size: 25px;
   font-family: "Courier",serif;
 }
-p, h3, h4 {
-  margin-bottom: 15px;
+h3 {
+  font-size: 20px;
+  font-family: "Courier",serif;
+}
+h4 {
+  font-size: 18px;
+  font-style: italic;
 }
 
 p{
   font-family: "Courier New",serif;
+  font-size: 18px;
 }
 
 li {
   list-style-type: circle;
+  font-size: 18px;
   list-style-position: outside;
   margin-left: 30px;
-  margin-bottom: 10px;
   font-family: "Courier New",serif;
 }
 

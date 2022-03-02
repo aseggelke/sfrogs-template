@@ -222,6 +222,17 @@
        insbesondere gesetzliche Aufbewahrungsfristen &ndash; bleiben unber&uuml;hrt.</p>
      <p>Quelle: <a class="underline" href="https://www.e-recht24.de">https://www.e-recht24.de</a></p>
    </div>
+   <div class="flex md:block flex-col">
+     <NuxtLink
+       class="p-3 md:mr-5 mb-5 text-center hover:bg-black hover:text-white border-4 border-solid border-black"
+       to="/">Zurück Zur
+       Startseite
+     </NuxtLink>
+     <NuxtLink class="p-3 hover:bg-black text-center hover:text-white border-4 border-solid border-black"
+               to="/Impressum">
+       Impressum
+     </NuxtLink>
+   </div>
 </div>
 
     <Footer/>
@@ -241,30 +252,32 @@ export default {
 
 <style>
 h2 {
-  margin-bottom: 20px;
-  font-size: 35px;
-}
-h3 {
-  font-size: 30px;
-  font-family: "Courier",serif;
-}
-h4 {
+  margin-bottom: 30px;
   font-size: 25px;
   font-family: "Courier",serif;
 }
-p, h3, h4 {
+h3 {
+  font-size: 20px;
+  font-family: "Courier",serif;
+}
+h4 {
+  font-size: 18px;
+  font-style: italic;
+}
+p, h2 {
   margin-bottom: 15px;
 }
 
 p{
   font-family: "Courier New",serif;
+  font-size: 18px;
 }
 
 li {
   list-style-type: circle;
+  font-size: 18px;
   list-style-position: outside;
   margin-left: 30px;
-  margin-bottom: 10px;
   font-family: "Courier New",serif;
 }
 
