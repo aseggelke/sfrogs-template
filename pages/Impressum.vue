@@ -29,8 +29,8 @@
         <p>Angaben gemäß § 5 TMG</p>
         <p>Simone Vianden-Klees<br>Berufsbetreuer
         <p>
-          Postfach 11 32<br>
-          51655 Wiehl <br>
+          Weiher Passage 16<br>
+          51674 Wiehl <br>
 
         </p>
         <p><strong>Kontakt:</strong> <br>
